@@ -1,10 +1,10 @@
 ## root脚本命令列表：
-### (1)一键获取root脚本
+### (方法1)一键获取root脚本【方便快捷省事】
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/sxbai/root-on-replit/master/root.sh)
 ```
-### (2)手动输入命令行
-> 6条命令行按顺序依次输入
+### (方法2)手动输入命令行【繁琐费事】
+> 6条命令行（最后一条su可用可不用）按顺序依次输入
 ```bash
 wget https://yt.sxbai.repl.co/yt.zip
 ```
@@ -20,6 +20,7 @@ tar -xvf root.tar.xz && rm root.tar.xz
 ```bash
 ./dist/proot -S . /bin/bash
 ```
+su这个可用可不用，看个人。
 ```bash
 su
 ```
