@@ -1,8 +1,9 @@
 ## root脚本命令列表：
-一键获取root脚本
+### (1)一键获取root脚本
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/sxbai/root-on-replit/master/root.sh)
 ```
+### (2)手动输入命令行
 > 6条命令行按顺序依次输入
 ```bash
 wget https://yt.sxbai.repl.co/yt.zip
@@ -23,7 +24,7 @@ tar -xvf root.tar.xz && rm root.tar.xz
 su
 ```
 
-## 拓展命令行：
+### 拓展命令行：
 切换root环境
 ```bash
 ./dist/proot -S . /bin/bash
