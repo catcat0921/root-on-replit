@@ -6,5 +6,5 @@ unzip root.zip && rm root.zip
 tar -xvf root.tar.xz && rm root.tar.xz
 rm -rf music.mp3 && rm -rf video.mp4
 ./dist/proot -S . /bin/bash
-echo "输入su可以提权"
+echo "输入passwd可以更改root密码"
 rm -rf README.md
